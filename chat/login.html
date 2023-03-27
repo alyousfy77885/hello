@@ -1,0 +1,272 @@
+<!doctype html>
+                        <html>
+                            <head>
+                                <meta charset='utf-8'>
+                                <meta name='viewport' content='width=device-width, initial-scale=1'>
+                                <title>Snippet - GoSNippets</title>
+                                          <link href='style.css' rel='stylesheet'>
+                               <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel='stylesheet'>
+                                <link href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' rel='stylesheet'>
+                                <style>@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+}
+
+font-face {
+    font-family: "Tatwerat_Gess";
+    src: url("fonts/GE_SS_Unique_Bold.otf");
+    src: url("fonts/GE_SS_Unique_Bold.eot?") format("eot"), url("fonts/GE_SS_Unique_Bold.otf") format("opentype"), url("fonts/GE_SS_Unique_Bold.otf") format("truetype");
+}
+@font-face {
+    font-family: "Tatwerat_Gess_light";
+    src: url("fonts/GE_SS_Unique_Light.otf");
+    src: url("fonts/GE_SS_Unique_Light.eot?") format("eot"), url("fonts/GE_SS_Unique_Light.otf") format("opentype"), url("fonts/GE_SS_Unique_Light.otf") format("truetype");
+}
+@font-face {
+    font-family: "Tatwerat_Helv";
+    src: url("fonts/HelveticaNeueW23-Bd.ttf");
+    src: url("fonts/HelveticaNeueW23-Bd.ttf?") format("eot"), url("fonts/HelveticaNeueW23-Bd.ttf") format("opentype"), url("fonts/HelveticaNeueW23-Bd.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Tatwerat_Light';
+    src: url('fonts/DroidKufi-Regular.eot');
+    src: url('fonts/DroidKufi-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/DroidKufi-Regular.woff') format('woff'), url('fonts/DroidKufi-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'GESSTOW_Light';
+    src: url('fonts/GE_SS_Two_Light.eot');
+    src: url('fonts/GE_SS_Two_Light.eot?#iefix') format('embedded-opentype'), url('fonts/GE_SS_Two_Light.woff') format('woff'), url('fonts/GE_SS_Two_Light.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GESSTOW_Medium';
+    src: url('fonts/GE_SS_Two_Medium.eot');
+    src: url('fonts/GE_SS_Two_Medium.eot?#iefix') format('embedded-opentype'), url('fonts/GE_SS_Two_Medium.woff') format('woff'), url('.fonts/GE_SS_Two_Medium.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GESSTOW_Bold';
+    src: url('fonts/GE_SS_Two_Bold.eot');
+    src: url('fonts/GE_SS_Two_Bold.eot?#iefix') format('embedded-opentype'), url('fonts/GE_SS_Two_Bold.woff') format('woff'), url('fonts/GE_SS_Two_Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Tatwerat_H";
+    src: url("fonts/Hacen_Vanilla.ttf");
+    src: url("fonts/Hacen_Vanilla.eot?") format("eot"), url("fonts/Hacen_Vanilla.otf") format("opentype"), url("fonts/Hacen_Vanilla.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Tatwerat_K";
+    src: url("fonts/KHoma.ttf");
+    src: url("fonts/KHoma.eot?") format("eot"), url("fonts/KHoma.otf") format("opentype"), url("fonts/KHoma.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Tatwerat_D";
+    src: url("fonts/SC_DUBAI.ttf");
+    src: url("fonts/SC_DUBAI.eot?") format("eot"), url("fonts/SC_DUBAI.otf") format("opentype"), url("fonts/SC_DUBAI.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Tatwerat_English";
+    src: url("fonts/HoboStd.otf");
+    src: url("fonts/HoboStd.eot?") format("eot"), url("fonts/HoboStd.otf") format("opentype"), url("fonts/HoboStd.ttf") format("truetype");
+}
+
+body{
+  display: flex;
+  align-items: top;
+  justify-content: top;
+  min-height: 100vh;
+  background: #f7f7f7;
+  padding: 0 10px;
+}
+.wrapper{
+  background: #fff;
+  
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+              0 32px 64px -48px rgba(0,0,0,0.5);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to top, #c9c9ff 50%, #9090fa 90%) no-repeat
+}
+
+.container {
+    margin: 50px auto
+}
+
+.panel-heading {
+    text-align: center;
+    margin-bottom: 10px
+}
+#forgot {
+    min-width: 100px;
+    margin-left: auto;
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.form-inline label {
+    padding-left: 10px;
+    margin: 0;
+    cursor: pointer
+}
+
+.btn.btn-primary {
+    margin-top: 20px;
+    border-radius: 15px
+}
+
+.panel {
+    min-height: 380px;
+    box-shadow: 20px 20px 80px rgb(218, 218, 218);
+    border-radius: 12px
+}
+
+.input-field {
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    
+    border: 1px solid #ddd;
+    /*color: #4343ff*/
+}
+
+input[type='text'],
+input[type='password'] {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%
+}
+
+.fa-eye-slash.btn {
+    border: none;
+    outline: none;
+    box-shadow: none
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative
+}
+
+a[target='_blank'] {
+    position: relative;
+    transition: all 0.1s ease-in-out
+}
+
+.bordert {
+    border-top: 1px solid #aaa;
+    position: relative
+}
+
+.bordert:after {
+   /* content: "or connect with";
+ */   position: absolute;
+    top: -13px;
+    left: 33%;
+    background-color: #fff;
+    padding: 0px 8px
+}
+
+@media(max-width: 360px) {
+    #forgot {
+        margin-left: 0;
+        padding-top: 10px
+    }
+
+    body {
+        height: 100%
+    }
+
+    .container {
+        margin: 30px 0
+    }
+
+    .bordert:after {
+        left: 25%
+    }
+}
+*{
+
+  font-family: "Tatwerat_Light";
+
+}</style>
+                                <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+                                <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+                                <script type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'></script>
+                            </head>
+                            <body oncontextmenu='return false' class='snippet-body' dir='rtl'>
+                            <div class="container">
+    <div class="row">
+        <div class="offset-md-2 col-lg-5 col-md-7 offset-lg-4 offset-md-3">
+            <div class="panel border bg-white">
+                <div class="panel-heading">
+                    <h3 class="pt-3 font-weight-bold">تسجيل دخول</h3>
+                </div>
+                <div class="panel-body p-3">
+                        <section class="form login">
+
+ 
+                    <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
+            <div class="error-text"></div>
+
+     
+                        <div class="form-group py-2">
+                            <div class="input-field"> <span class="far fa-user p-2"></span> <input type="text" name="email"
+                 style="background:white"           autocomplete="off" placeholder="البريد الالكتروني" required> </div>
+                        </div>
+                        <div class="form-group py-1 pb-2">
+                            <div class="input-field"> <span class="fas fa-lock px-2"></span> <input type="password"
+                            name="password"
+                autocomplete="off"            placeholder="كلمه المرور" required> <button class="btn bg-white text-muted"> <span class="far fa-eye-slash"></span> </button> </div>
+                        </div>
+                        <div class="form-inline"> <input type="checkbox" name="remember" id="remember"> <label for="remember" class="text-muted">تذكرني</label> <a href="#" id="forgot" class="font-weight-bold">هل نسيت كلمه السر</a> </div>
+           <div class="field button" >
+            <input class="btn btn-primary" type="submit" name="submit" style="background:yellow;color:black" value="دخول">
+            </div>     <div class="text-center pt-4 text-muted">ليس لديك حساب؟ <a href="#">تسجيل</a> </div>
+                    </form>
+           </section>     </div>
+                <div class="mx-3 my-2 py-2 bordert">
+                    <div class="text-center py-3"> <a href="https://wwww.facebook.com" target="_blank" class="px-2"> <img src="https://www.dpreview.com/files/p/articles/4698742202/facebook.jpeg" alt=""> </a> <a href="https://www.google.com" target="_blank" class="px-2"> <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" alt=""> </a> <a href="https://www.github.com" target="_blank" class="px-2"> <img src="https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-github-icon-35.png" alt=""> </a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                            <script type='text/javascript'></script>
+
+  <script src="javascript/pass-show-hide.js"></script>
+
+  <script src="javascript/login.js"></script>
+
+                            </body>
+                        </html>
